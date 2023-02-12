@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@color/Pink_500"
+            android:text="Setting"
+            android:layout_margin="10dp"
+            android:drawableTop="@drawable/wheel"
+            android:drawablePadding="5dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+
+
+            ></Button>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@color/Pink_500"
+            android:text="Chat"
+            android:layout_margin="10dp"
+            android:drawableTop="@drawable/speech"
+            android:drawablePadding="5dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+
+
+            ></Button>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@color/Pink_500"
+            android:text="refresh"
+            android:layout_margin="10dp"
+            android:drawableTop="@drawable/refresh"
+            android:drawablePadding="5dp"
+            android:padding="10dp"
+            android:gravity="center"
+
+
+
+            ></Button>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:paddingRight="20dp"
+        android:background="@color/Pink_500"
+        android:drawableEnd="@drawable/phone"
+        android:text="Button with right icon"
+        ></Button>
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:paddingLeft="20dp"
+        android:background="@color/Pink_500"
+        android:drawableStart="@drawable/phone"
+        android:text="Button with left icon"
+        ></Button>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/Pink_500"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:text="supmit"
+            ></Button>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/Pink_500"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:text="Try Again"
+            ></Button>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
